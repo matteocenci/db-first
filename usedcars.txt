@@ -1,0 +1,8 @@
+CARS
+
+------------------------------------
+
+id                  - UNSIGNED INT        - PRIMARY KEY(NOT NULL, UNIQUE) - AUTO_INCREMENT
+mark                - VARCHAR(255)        - NOT NULL
+model               - VARCHAR(255)        - NOT NULL
+year                - YEAR                - NOT NULL
