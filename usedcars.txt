@@ -6,3 +6,18 @@ id                  - UNSIGNED INT        - PRIMARY KEY(NOT NULL, UNIQUE) - AUTO
 mark                - VARCHAR(255)        - NOT NULL
 model               - VARCHAR(255)        - NOT NULL
 year                - YEAR                - NOT NULL
+price               - DECIMAL(10, 2)      - NOT NULL
+mileage             - INT                 - NOT NULL
+color               - VARCHAR(50)         - NOT NULL
+fuel_type           - VARCHAR(50)         - NOT NULL
+transmission        - VARCHAR(50)         - NOT NULL
+engine_size         - DECIMAL(4, 1)       - NOT NULL
+horsepower          - INT                 - NOT NULL
+doors               - TINYINT             - NOT NULL
+seats               - TINYINT             - NOT NULL
+description         - MEDIUMTEXT
+condition           - VARCHAR(50)         - NOT NULL
+vin                 - VARCHAR(17)         - NOT NULL, UNIQUE
+image_path          - TEXT                - DEFAULT("img/car-placeholder.jpg")
+dealer_id           - UNSIGNED INT        - NOT NULL
+available           - TINYINT             - NOT NULL - DEFAULT(1)
